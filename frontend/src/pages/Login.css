@@ -1,0 +1,73 @@
+
+
+.login-container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a192f; /* fallback */
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  z-index: 1;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #00bfff;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.login-card input::placeholder {
+  color: #ccc;
+}
+
+.login-card input:focus {
+  border-color: #00bfff29;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 0 12px #00bfff90;
+}
+
+.login-card button:hover {
+  background: #009ee0;
+  box-shadow: 0 0 16px #00bfff;
+  transform: scale(1.03);
+}
